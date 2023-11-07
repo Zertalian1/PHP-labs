@@ -52,7 +52,6 @@ while ($tab_rows = mysqli_fetch_row($tab_res)) {
 
 if (isset($_POST["id"]) && $_POST["id"] != '') {
     $id = $_POST["id"];
-    $val_array;
     $tab_res = mysqli_query($conn, "SHOW TABLES");
     while ($tab_row = mysqli_fetch_row($tab_res)) {
         if ($tab_row[0] == "notebook") {
