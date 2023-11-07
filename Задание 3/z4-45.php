@@ -15,7 +15,12 @@ print "<p>$user, имеет следующие хобби:";
 
 print "<ul>\n";
 foreach ($_POST as $key => $value) {
-    print "$key = $value<br>\n";
+    if (gettype($value) == 'array') {
+        $v = implode(', ', $value);
+    } else {
+        $v = $value;
+    }
+    print "$key = $v<br>\n";
 }
 print "</ul>\n";
 

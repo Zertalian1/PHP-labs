@@ -1,10 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="2-5" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Задание 2/z2-5.php" scriptParameters="en">
-    <CommandLine>
-      <PhpTestInterpreterSettings>
-        <option name="interpreterName" value="C:\Users\kda90\php-8.2.11\php.exe" />
-      </PhpTestInterpreterSettings>
-    </CommandLine>
+  <configuration default="false" name="2-5" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/Задание 2/z2-5.php" scriptParameters="ru">
     <method v="2" />
   </configuration>
 </component>
